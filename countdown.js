@@ -1,4 +1,4 @@
-var comingdate = new Date("Jul 1, 2019 00:00:00");
+var comingdate = new Date("Jun 19, 2019 15:00:00");
 
 var d = document.getElementById('d');
 var h = document.getElementById('h');
@@ -19,8 +19,8 @@ var x = setInterval(function(){
   s.innerHTML = getTrueNumber(secs);
 
   if(des <= 0){
-    clearInterval(x);
     releaseGandalf();
+    clearInterval(x);
   }
 
 },1000);
