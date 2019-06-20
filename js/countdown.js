@@ -1,4 +1,4 @@
-var comingdate = new Date("Jun 19, 2019 11:30:00");
+var comingdate = new Date("Jun 21, 2019 13:30:00");
 
 var d = document.getElementById('d');
 var h = document.getElementById('h');
@@ -32,7 +32,7 @@ function getTrueNumber(x) {
 
 function releaseGandalf() {
   var gandalf = document.getElementsByClassName("gandalf");
-  gandalf[0].innerHTML = `<iframe class="playerYT" src="https://www.youtube.com/embed/BBGEG21CGo0?controls=0&autoplay=1" frameborder="0"
+  gandalf[0].innerHTML = `<iframe class="playerYT" src="https://www.youtube.com/embed/inZ_KDHMvAw" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   var page = document.getElementsByClassName('page');
   page[0].classList.add("hidden");
