@@ -1,6 +1,6 @@
 
 function OpenPage(password) {
-    if (password === "langespeknekfoto") {
+    if (password === "boinaboi") {
         go();
     }else{
         window.location.replace("https://kutjeboef.tk");
